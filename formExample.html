@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Forms</title>
+</head>
+<body>  
+
+  <p>
+    <h1>Forms1</h1>
+    <!-- requests GET POST PUT-->
+  </p>
+  <form action="http://www.baidu.com">
+    <!-- forms cannot be placed inside <p>-->
+    <!-- Labels & Inputs-->
+    <label>Email:<input type="email" placeholder="Email" required /></label>
+    <label>Username:<input type="text" name="user_name" placeholder="UserName" required /></label>
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Password" required />
+  </form>
+
+    <br />
+    <!-- Other inputs-->
+    <p>
+      <h1>Forms2: Dogs or cats?</h1>
+      <!-- requests GET POST PUT-->
+    </p>
+    <form>
+      <label for="dogs">Dogs:</label>
+      <input id="dogs" type="radio" value="DOGS" name="user_pet_choice" />
+      <label for="cats">Cats</label>
+      <input id="cats" type="radio" value="CATS" name="user_pet_choice" />
+      <p>Select level:</p>
+      <select name="Love level">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <button>Submit!</button>
+    </form>
+  
+
+  
+
+</body>
+</html>
