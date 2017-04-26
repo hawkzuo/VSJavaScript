@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<!-- Use Regular Expression for validation-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+  <h1><strong>Register</strong></h1>
+  <form>
+    <div>
+      <label>First Name:<input type="text" id="fName" placeholder="Dummy" /></label>
+      <label>Last Name:<input type="text" id="lName" placeholder="Dummy" /></label>
+    </div>
+    <br />
+    <div>
+      <label for="male">Male</label>
+      <input id="male" type="radio" value="M" name="user_gender_choice" />
+      <label for="female">Female</label>
+      <input id="female" type="radio" value="F" name="user_gender_choice" />
+      <label for="other">Other</label>
+      <input id="other" type="radio" value="U" name="user_gender_choice" />
+    </div>
+    <br />
+    <div>
+      <label>Email:<input type="email" id="uEmail" name="u_email_bad" placeholder="xx@xxx.com" required /></label>
+      <label>Password:<input type="password" id="uPass" maxlength="10" 
+                             required pattern="......*" title="Must between 5-10 chars" /></label>
+    </div>
+    <br />
+    <div>
+      <label>Birthday: </label><label>Month</label>
+      <select name="Month">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+      <label>Date</label>
+      <select name="Date">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+      <label>Year</label>
+      <select name="Year">
+        <option value="2017">2017</option>
+        <option value="2016">2016</option>
+        <option value="2015">2015</option>
+      </select>
+    </div>
+    <br />
+    <label>I agree to terms <input type="checkbox" id="agreeSign" required/></label>
+    <br />
+    <button>Submit!</button>
+</form>
+
+</body>
+</html>
