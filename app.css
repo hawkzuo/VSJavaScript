@@ -1,0 +1,12 @@
+﻿h1 {
+    color: crimson;
+    border-color: aqua;
+    border-width: 2px;
+    border-style: dashed;
+}
+body
+{
+    font-size: 25px;
+    background: pink;
+    background-size:auto;
+}
